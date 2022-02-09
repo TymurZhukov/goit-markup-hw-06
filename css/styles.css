@@ -749,8 +749,14 @@ img {
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  padding-left: 16px;
+  color: #ffffff;
   background-color: transparent;
   transition-property: border-color;
   transition-duration: var(--hover-time);
@@ -900,12 +906,13 @@ img {
 }
 
 .modal-input-field {
-  width: 448px;
-  height: 40px;
+  width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-bottom: 10px;
   padding-left: 42px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 10px;
   cursor: pointer;
   transition-property: border-color;
   transition-duration: var(--hover-time);
@@ -944,10 +951,12 @@ img {
 }
 
 .modal-comment-input-field {
-  width: 448px;
-  height: 120px;
+  width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
   margin-bottom: 20px;
   padding: 12px 16px;
   resize: none;
